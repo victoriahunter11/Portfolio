@@ -1,6 +1,7 @@
 body {
     background-image: url("https://wallpaperaccess.com/full/2510630.png");
     background-size:cover;
+    font-family:'Raleway', sans-serif;
     
     }
     
@@ -18,8 +19,9 @@ body {
     p{
         font-size: small;
         color:#074952;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
+
+        font-family:'Quicksand', sans-serif;
+        }
     
     fixed-bottom {
         color:#074952;
