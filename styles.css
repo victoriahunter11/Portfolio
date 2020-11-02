@@ -1,28 +1,57 @@
-body {
-    background-image: url("https://wallpaperaccess.com/full/2510630.png");
-    background-size:cover;
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/templates/scrolling-nav)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+ header {
+    padding: 250px 0 100px;
+  }
+  
+  footer {
+    background-color:#074952;
+  }
+  
+  .backgroundTop {
+    color:#074952;
     font-family:'Raleway', sans-serif;
-    
-    }
-    
-    h1 {
-        color: #1791af;
-    
-    }
-    
-    img {
-        float: left;
-        max-height: 300px;
-        max-width: 300px;
-    }
-    
-    p{
-        font-size: medium;
-        color:#074952;
-        font-family:'Quicksand', sans-serif;
-        }
-    
-    fixed-bottom {
-        color:#074952;
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    }
+    font-style:bold;
+  }
+  section {
+    padding: 150px 0;
+  }
+  
+  .backgroundTop {
+    background-image: url("https://wallpaperaccess.com/full/2510630.png");
+  
+  }
+  
+  #mainNav {
+    background-color:#074952;
+    color:white;
+    font-family:'Raleway', sans-serif !important;
+  }
+  
+  .lead {
+    color:#074952;
+    font-family:'Work Sans', sans-serif !important;
+    font-size:medium;
+  }
+  
+  .h2, h2 {
+    font-family:'Raleway', sans-serif !important;
+    color:#074952;
+  }
+  
+  .title{
+  font-family:'Raleway', sans-serif !important;
+  font-style:bold;
+  color:#074952;
+  }
+  
+  img {
+    opacity:.75;
+  }
+  
+  img:hover{
+    opacity:1.0;
+  }

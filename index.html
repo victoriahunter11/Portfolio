@@ -1,79 +1,186 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
 
-  <meta charset="UTF-8">
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-  <title>Victoria Hunter Portfolio: Bio</title>
+  <title>Victoria Hunter Portfolio</title>
 
-  <!-- Bootstrap and CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
+  <!-- Bootstrap core CSS -->
+
+  <link href="styles.css" rel="stylesheet">
+
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
 
 
+  <!-- Custom styles for this template -->
 </head>
 
-<body>
-  <!-- Start Nav Bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#074952;">
-    <span class="navbar-brand mb-1 h1">Victoria Hunter</span>
-    
-      <ul class="nav navbar-nav ml-auto">
+<body id="page-top">
 
-<!--Right side of Nav Bar with Links-->
-        <li class="nav-item mr-sm-2">
-          <a class="nav-link mr-sm-2" href="index.html">Welcome</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mr-sm-2" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link mr-sm-2" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </nav>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger"  href="#page-top">Victoria Hunter</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#services">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </nav>
 
-  <!-- End Nav -->
-  <br>
-  <br>
-  <!---About Me section-->
-  <section class="container">
-    <div class="row">
-      <div class="col-md-6 sm border" style="background-color:lightyellow; opacity: 90%; border-radius:10px;">
-        <header class="page-header">
-          <h1>Welcome</h1>
-        </header>
+  <header class="backgroundTop">
+    <div class="container text-center">
+      <h1>VICTORIA HUNTER</h1>
+      <p class="lead">Welcome to my portfolio!  </div>
+  </header>
 
-<!--Image of self-->
-        <img class="row" >
-          <div class="col-md-3" >
-            <img src="Assets/Images/selfie.png" alt="Victoria's graduation photo" class="rounded float-sm-left mr-2 img-fluid" >
-          </div>
-<!--Text about me-->
-          <div class="col-md-9">
-            <p><br>
-            Hi! My name is Victoria Hunter. I am currently an Associate Software Engineer
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <img src="Images/selfie.png" alt="Victoria's graduation photo" class="rounded float-sm-left mr-2 img-fluid" >
+          
+          <h2>About Me</h2>
+          <p class="lead"> Hi! My name is Victoria Hunter. I am an East Carolina University graduate,
+            where I majored in Management Information Systems.
+             I am currently an Associate Software Engineer
             at Allscripts, and also a student in the UNC-Chapel Hill Full-Stack Coding Bootcamp.
             Here, you can find some of my work, as well as links to contact me. Enjoy!
-          </div>
-              <div class="row col-md-9">
-              <p>
-                <a href="portfolio.html">Click here to navigate to my Portfolio</a> <br>
-                <a href="contact.html">Click here to navigate to my Links and Contact Information. </a>
-              <br>
-
-              </p>
-              </div>
-            
-          </div>
+          </p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
+  <section id="services" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Projects</h2>
+          <div class="column">
+            <img src="Images/AustinSearch.png" alt="Placeholder" class="img-thumbnail mr-sm-2">
+            <br> <br>
+             <p style="font-size:x-large; padding:2px;" class="title">Weather Dashboard</p> 
+            </div>
+          <p class="lead">
+            In this project, I created a weather dashboard where the user needs only to enter their desired city and click "search", 
+            to return the weather forecast for that city. I was able to get the weather forecast 
+            for the current day and next five days by using the Open Weather Map API. 
+            It dynamically responds and works on desktop browsers, 
+            as well as phones or tablets. 
+            <ul class="lead" style="font-size:medium;">Tools used:
+              <li>JQuery</li>
+              <li>API</li>
+              <li>CSS</li>
+              <li>HTML</li>
+            </ul>
+            <strong><a href="https://victoriahunter11.github.io/WeatherDashboard/">Deployed Website</a></strong><br>
+             
+            <strong><a href="https://github.com/victoriahunter11/WeatherDashboard">Github repository</a></strong><br>
+
+          </p>
+          <div class="column">
+            <img src="Images/Justpick.png" alt="Placeholder" class="img-thumbnail mr-sm-2">
+            <br> <br>
+             <p style="font-size:x-large; padding:2px;" class="title">Just Pick</p> 
+            </div>
+          <p class="lead">
+           I worked on this with three classmates. We created this app to solve the problem
+           of trying to find a place to eat. The user puts the city and state they would like
+           to focus on and they are returned a random restaurant. 
+            <ul class="lead" style="font-size:medium;">Tools used:
+              <li>JQuery</li>
+              <li>JavaScript</li>
+              <li>API</li>
+              <li>CSS</li>
+              <li>HTML</li>
+            </ul>
+            <strong><a href="https://michaelwitt.github.io/Just-Pick/">Deployed Website</a></strong><br>
+             
+            <strong><a href="https://github.com/MichaelWitt/Just-Pick">Github repository</a></strong><br>
+
+            </p>
+            <div class="column">
+              <img src="Images/codequizTest.png" alt="Placeholder" class="img-thumbnail mr-sm-2">
+              <br> <br>
+               <p style="font-size:x-large; padding:2px;" class="title">Just Pick</p> 
+              </div>
+            <p class="lead">
+             This is a code quiz I created that tests a player's knowledge of coding.
+             It includes a timer and score counter.
+              <ul class="lead" style="font-size:medium;">Tools used:
+                <li>JavaScript</li>
+                <li>CSS</li>
+                <li>HTML</li>
+              </ul>
+              <strong><a href="https://victoriahunter11.github.io/CodeQuiz/">Deployed Website</a></strong><br>
+             
+               <strong><a href="https://github.com/victoriahunter11/CodeQuiz">Github repository</a></strong><br>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Contact Info</h2>
+          <p class="lead">
+            <br>
+            Cell: 704-477-9924<br>
+            Email:
+            <strong><a href = "mailto: victoria.jane09@gmail.com">victoria.jane09@gmail.com</a>
+            </strong>
+         <br>
+            <strong><a href="https://www.linkedin.com/in/victoria-hunter-a71798154">LinkedIn</a></strong><br>
+             
+            <strong><a href="https://github.com/victoriahunter11">GitHub</a></strong><br>
+            <a href="Images/2020BootcampResume2.pdf" download>Resume</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-5">
+    <div class="container">
+      <p class="m-0 text-center text-white">Victoria Hunter 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
 
 </body>
 
