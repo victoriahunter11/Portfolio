@@ -12,7 +12,7 @@ Here is what my portfolio looks like on a web browser:
 
 Here is what it looks like from an iPhone:
 ![portfolioiPhone](Assets/portfolioiPhone.png)
-![portfolioiPhone2](Assets/portfolioiPhone.png)
+![portfolioiPhone2](Assets/portfolioiPhone2.png)
 
 Link for bootstrap template: https://startbootstrap.com/templates/scrolling-nav/
 MIT License
