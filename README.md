@@ -8,7 +8,7 @@ To create this updated portfolio, I used CSS, HTML, and Bootstrap. I found a the
 Here is what my portfolio looks like on a web browser:
 
 ![firstpage](Assets/images/firstpage.png)
-![viewsofproject](Assets/images/viewsofproject.png)
+![viewsofproject](Assets/images/viewofproject.png)
 
 Here is what it looks like from an iPhone:
 ![portfolioiPhone](Assets/images/portfolioiPhone.png)
