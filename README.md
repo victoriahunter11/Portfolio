@@ -7,12 +7,12 @@ To create this updated portfolio, I used CSS, HTML, and Bootstrap. I found a the
 
 Here is what my portfolio looks like on a web browser:
 
-![firstpage](Assets/images/firstpage.png)
-![viewsofproject](Assets/images/viewofproject.png)
+![Portfolio](/Assets/Images/firstpage.png)
+![Portfolio](/Assets/Images/viewofproject.png)
 
 Here is what it looks like from an iPhone:
-![portfolioiPhone](Assets/images/portfolioiPhone.png)
-![portfolioiPhone2](Assets/images/portfolioiPhone2.png)
+![Portfolio](/Assets/Images/portfolioiPhone.png)
+![Portfolio](/Assets/Images/portfolioiPhone2.png)
 
 Link for bootstrap template: https://startbootstrap.com/templates/scrolling-nav/
 MIT License
